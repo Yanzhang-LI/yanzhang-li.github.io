@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cv on Forty</title>
+    <link>http://liyanzhang.com/categories/cv/</link>
+    <description>Recent content in Cv on Forty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Aug 2019 20:21:23 +0800</lastBuildDate>
+    
+	<atom:link href="http://liyanzhang.com/categories/cv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cv</title>
+      <link>http://liyanzhang.com/cv/</link>
+      <pubDate>Sat, 24 Aug 2019 20:21:23 +0800</pubDate>
+      
+      <guid>http://liyanzhang.com/cv/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
