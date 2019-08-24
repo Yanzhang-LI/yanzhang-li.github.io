@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Forty</title>
-    <link>https://yanzhang-li.github.io/</link>
+    <link>//yanzhang-li.github.io/</link>
     <description>Recent content on Forty</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Aug 2019 20:21:23 +0800</lastBuildDate>
     
-	<atom:link href="https://yanzhang-li.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//yanzhang-li.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cv</title>
-      <link>https://yanzhang-li.github.io/cv/</link>
+      <link>//yanzhang-li.github.io/cv/</link>
       <pubDate>Sat, 24 Aug 2019 20:21:23 +0800</pubDate>
       
-      <guid>https://yanzhang-li.github.io/cv/</guid>
+      <guid>//yanzhang-li.github.io/cv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aliquam</title>
-      <link>https://yanzhang-li.github.io/blogs/aliquam/</link>
+      <link>//yanzhang-li.github.io/blogs/aliquam/</link>
       <pubDate>Tue, 31 Oct 2017 22:42:51 -0500</pubDate>
       
-      <guid>https://yanzhang-li.github.io/blogs/aliquam/</guid>
+      <guid>//yanzhang-li.github.io/blogs/aliquam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tempus</title>
-      <link>https://yanzhang-li.github.io/blogs/tempus/</link>
+      <link>//yanzhang-li.github.io/blogs/tempus/</link>
       <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
       
-      <guid>https://yanzhang-li.github.io/blogs/tempus/</guid>
+      <guid>//yanzhang-li.github.io/blogs/tempus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Magna</title>
-      <link>https://yanzhang-li.github.io/blogs/magna/</link>
+      <link>//yanzhang-li.github.io/blogs/magna/</link>
       <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
       
-      <guid>https://yanzhang-li.github.io/blogs/magna/</guid>
+      <guid>//yanzhang-li.github.io/blogs/magna/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ipsum</title>
-      <link>https://yanzhang-li.github.io/blogs/ipsum/</link>
+      <link>//yanzhang-li.github.io/blogs/ipsum/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://yanzhang-li.github.io/blogs/ipsum/</guid>
+      <guid>//yanzhang-li.github.io/blogs/ipsum/</guid>
       <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yanzhang-li.github.io/blogs/01makeup/</link>
+      <link>//yanzhang-li.github.io/blogs/01makeup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yanzhang-li.github.io/blogs/01makeup/</guid>
+      <guid>//yanzhang-li.github.io/blogs/01makeup/</guid>
       <description>MakeUP 美咔  ** An IoT solution to improving cosmetics managing experience**
  **
 

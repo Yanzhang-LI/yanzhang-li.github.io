@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Forty</title>
-    <link>https://yanzhang-li.github.io/categories/</link>
+    <link>//yanzhang-li.github.io/categories/</link>
     <description>Recent content in Categories on Forty</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Aug 2019 20:21:23 +0800</lastBuildDate>
     
-	<atom:link href="https://yanzhang-li.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//yanzhang-li.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cv</title>
-      <link>https://yanzhang-li.github.io/categories/cv/</link>
+      <link>//yanzhang-li.github.io/categories/cv/</link>
       <pubDate>Sat, 24 Aug 2019 20:21:23 +0800</pubDate>
       
-      <guid>https://yanzhang-li.github.io/categories/cv/</guid>
+      <guid>//yanzhang-li.github.io/categories/cv/</guid>
       <description></description>
     </item>
     
