@@ -2850,13 +2850,14 @@
 				filter: blur(0.5em);
 				opacity: 0;
 			}
-			
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 40%;
-			}
-			.tiles article:nth-child(6n-1){
+			.tiles article:nth-child(6n - 3){
 				width: 100%;
 			}
+
+			.tiles article:nth-child(6n - 4), .tiles article:nth-child(6n - 2){
+				width: 40%;
+			}
+
 
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #FCBBC3;
@@ -2867,7 +2868,7 @@
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #f3ce89;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
