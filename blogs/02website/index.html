@@ -56,7 +56,7 @@
             
                 <li><a href="//yanzhang-li.github.io/cv">CV</a></li>
             
-                <li><a href="//oh-eureka.com">Blog</a></li>
+                <li><a href="//www.oh-eureka.com">Blog</a></li>
             
 
         </ul>
@@ -78,9 +78,163 @@
                                 <h1>Patent Novelty Website</h1>
                             </header>
                             
-                                <span class="image main"><img src="/img/blogs/makeup-real.jpg" alt="" /></span>
+                                <span class="image main"><img src="/img/blogs/02-cover.jpg" alt="" /></span>
                             
-                            <p>1111</p>
+                            
+
+<h1 id="patent-novelty-website">Patent Novelty Website</h1>
+
+<blockquote>
+<p><strong>A website which could evaluate the potential value of a patent.</strong>
+<img src="https://img.oh-eureka.com/pics/2019-08-25-coverGIF.gif" alt="CoverGIF.gif" /></p>
+</blockquote>
+
+<h1 id="overview">Overview</h1>
+
+<h2 id="brief-introduction">Brief Introduction</h2>
+
+<p>I completed this design project during my outbound exchange in Singapore University of Technology and Design (SUTD), guided by Prof.Luo Jianxi. Generally speaking, I redesigned <strong>the user-flow of the website</strong> as well as <strong>the visual part</strong>, and put the design into practice by <strong>building the website</strong> based on my front-end development skill. Part of the website is not perfect and it works terribly on mobile end because my poor development skill.</p>
+
+<ul>
+<li>The website is now available. <a href="http://www.innogps.com/innovelty/index.html">View website</a> <br></li>
+<li><a href="https://github.com/yanzhanglee/Patent-Novelty-Website">Code Resource on Github</a></li>
+</ul>
+
+<h2 id="info">Info</h2>
+
+<p>Sep. 2018 - Nov. 2018 | 2 months | Individual</p>
+
+<h1 id="schema">Schema</h1>
+
+<p><strong><a href="#01-understand-the-theory">01 Understand the theory</a></strong>
+<br>
+<strong><a href="#02-design">02 Design</a></strong>
+<br>
+<strong><a href="#03-develop">03 Develop</a></strong>
+<br>
+<strong><a href="#04-iteration">04 Iteration</a></strong>
+<br>
+<strong><a href="#05-conclusion">05 Conclusion &amp; Take Away</a></strong></p>
+
+<h1 id="01-understand-the-theory">01 Understand the theory</h1>
+
+<p>This website aims at using an innovative method to evaluate the potential value of a patent. The method is proposed by Prof. Luo Jianxi and Dr. He Yuejun, <a href="https://idc.sutd.edu.sg/">SUTD-MIT International Design Center</a>, SUTD. Related thesis as below:
+<br>
+- <a href="https://www.cambridge.org/core/journals/design-science/article/novelty-sweet-spot-of-invention/48206051FC302693D375AB151B3BA9C7">Yuejun He, Jianxi Luo (2017) The Novelty “Sweet Spot” of Invention. Design Science, 3, e21.</a>
+- <a href="https://www.designsociety.org/publication/40709/ASSESS+NOVELTY+OF+AN+INVENTION+USING+THE+CENTRAL-EXTREME+NOVELTY+MATRIX%3A+A+CASE+STUDY+OF+JUVO+LAB%27S+FIBRE-OPTIC+SENSOR+MAT">Yuejun He, Jianxi Luo (2018) Assess Novelty of An Invention Using the Central-Extreme Novelty Matrix: A Case Study of Juvo Lab’s Fibre-Optic Sensor Mat. ICDC, 2018, Bath, UK.</a></p>
+
+<p>The value of a patent needs more than 10 years to fully show off, so it is difficult to know about the potential value of a patent when it is new to the world. However, the method above points out that the potential value can be forecasted by 2 key factors, <strong>the Extreme Novelty and the Central Novelty</strong>. When these 2 factors match a specific range, which means the patent is at the &ldquo;Sweet Spot&rdquo;, the patent may have a higher potential value.</p>
+
+<p>The original website is shown as below and the rectangles with blue border below is the &ldquo;Sweet Spot&rdquo;. User enter specific patent ID or related keywords, then click the &lsquo;Search&rsquo; button. The result will show on the  matrix.
+<img src="https://img.oh-eureka.com/pics/2019-08-25-original-website-id.png" alt="OriginalPage" />
+<br></p>
+
+<p>After reading the thesis of this method, I figured out that the thesis provides a completed <strong>patent value distribution map</strong>. The &ldquo;Sweet Spot&rdquo; is just the area with highest potential, and the surrounding area with deep color (show as below) also suggests a high potential value. So, why don&rsquo;t we just tell the users about the distribution? Otherwise, the user can only know <strong>whether the patent is &lsquo;inside&rsquo; or &lsquo;outside&rsquo; the Sweet Spot, which is meaningless and will make the user upset</strong>. Offering more meaningful information will be the first step to redesign the website.</p>
+
+<p><img src="https://img.oh-eureka.com/pics/2019-08-25-patent-distribution.png" alt="Distribution" /></p>
+
+<p>With the understanding of theory and the design goals:
+- <strong>To let first-time user understand the website</strong>
+- <strong>To offer more valuable information of the patent to users</strong>
+- <strong>To be used smoothly by skilled users</strong></p>
+
+<p>I start my design.</p>
+
+<h1 id="02-design">02 Design</h1>
+
+<p>Based on the design goals,
+&gt; - To let first-time user understand the website
+&gt; - To offer more valuable information of the patent to users
+&gt; - To be used smoothly by skilled users</p>
+
+<p>My design process is shown as below:
+- Analyze the user interaction and flow of the original website
+- Design the interaction framework
+- Design the structure of the website
+- User Interface Design</p>
+
+<h2 id="analyze-original-website">Analyze Original Website</h2>
+
+<p>The original website shows as below.
+<img src="https://img.oh-eureka.com/pics/2019-08-25-original.png" alt="original" /></p>
+
+<p>Based on the original website, I draw the user-flow as below.</p>
+
+<p><img src="https://img.oh-eureka.com/pics/2019-08-25-original-userflow.png" alt="user-flow" /></p>
+
+<p>We can figure out that the user would have questions like, what is the Novelty or Extreme Novelty, Central Novelty of a patent? How does the website evaluate it? What if I do not know any patent ID? What does the result mean?</p>
+
+<p>Those questions would make users confused and upset.</p>
+
+<h2 id="design-user-interaction">Design User Interaction</h2>
+
+<p>The essence of the website is a tool, the core value is to provide users with a evaluation to a patent. For a tool, I simply divided to users into 2 kinds, the Naive User and the Skillful User.</p>
+
+<p>For Skillful User, the website should response quickly and provide a high-efficiency user interface. For Naive User, perhaps we can answer the question, what is the website&rsquo;s function, with a user guide and build confidence. Thus, I plan to <strong>implement a Demo to do a case-by-case guide, and also provide a How it works page to show the theory of assessing patent&rsquo;s value</strong>.</p>
+
+<p>The new user-flow framework shows below.
+<img src="https://img.oh-eureka.com/pics/2019-08-25-better-userflow.png" alt="user-flow new" /></p>
+
+<h2 id="design-web-structure">Design Web Structure</h2>
+
+<p>With the user-flow, the framework of the website will be,
+- Home Page
+  - Search Patent ID Result
+  - Search Keywords Result
+- Demo
+  - Select a Patent
+  - View Result
+- How it works
+- About</p>
+
+<h2 id="visual-design">Visual Design</h2>
+
+<p>Then, I used AI to illustrate the visual part of the website and modified the draft many times according to Prof. Luo&rsquo;s suggestion. In the process, I tried to avoid the unapplicable design based on my front-end developing skill.</p>
+
+<h1 id="03-develop">03 Develop</h1>
+
+<p>Besides the small components like navigation bar, I divided the website into several parts and developed it as order.</p>
+
+<h2 id="demo-page">Demo Page</h2>
+
+<p><img src="https://img.oh-eureka.com/pics/2019-08-25-DEMO1.jpg" alt="Demo 1" />
+I used Web Cookies to judge whether this is the first time the user browse the website. If so, enter the Demo Page, which would demonstrates 3 patents and asks the user to choose one. These 3 patents are required to be famous and have a relative better result, like inside or near the Sweet Spot. I hope that by this way, the user can get to know what the website is about and how we can use it. Also, the case will help to build confidence since I choose famous patents and the user&rsquo;s impression matches the result.<br>
+Also, I involved <code>particle.js</code> to build some interaction on the website, and bring some tech-feeling.
+<br></p>
+
+<p><img src="https://img.oh-eureka.com/pics/2019-08-25-DEMO2.jpg" alt="Demo 2" /></p>
+
+<p>After the user chooses one of the patents to assess, the detail page would demonstrate the result. What&rsquo;s more, besides the result and the information of the patent, the page would also show the user about the application of the patent in business or products, proving that the result on the matrix is making sense.</p>
+
+<p>Through this page, I would like to let the users know how they can use the website and the meaning of the information. Meanwhile, it can build confidence in users.</p>
+
+<h2 id="home">Home</h2>
+
+<p>Home Page provides the main function of the website, which may be frequently used by skilled users. Basically, it provides two entrances to start a query, searching patent ID or searching patent keywords. The interface is constructed with 3 parts: input box area, matrix area and patent information area. So I modified the website as below:
+- Adjust the input box
+- Use the colorful matrix to indicate more information for users
+- Adjust the information display of patents
+- Adjust the information display of multi-choice</p>
+
+<p><img src="https://img.oh-eureka.com/pics/2019-09-03-ID.jpg" alt="00" />
+<img src="https://img.oh-eureka.com/pics/2019-09-03-KEYWORD.png" alt="01" /></p>
+
+<h1 id="04-iteration">04 Iteration</h1>
+
+<p>The first version of the website is not as the screenshots. It has a different way to display information which may cause confusion to new users. To be specific, I modified the below contents:
+- I modified the display style of the 3 patents on Demo Page
+- I adjusted the display style of the patent information
+- I adjusted the display style of keyword searching result</p>
+
+<p>Those adjustment and modification is built on the feedback of my user interview. I let 2 designers and 2 native users to judge the first version website, collecting their questions, usability issues and suggestions.</p>
+
+<h1 id="05-conclusion">05 Conclusion</h1>
+
+<p>This is my first time that I finished a design and also developed it on my own without any help. Even though the website is not perfect but I am still proud of it.</p>
+
+<p>The biggest shortcoming is that the website is not fit with mobile devices, since I did not adapt development framework. Also, the interface is not perfect with details since I had to put my effort to try to develop it. Also, I did not collect enough data to improve the website in the future.</p>
+
+<p>For Web Design, modularization and iteration is quite essential. I did not have an interactive model library so many basic contents will be difficult designs for me.</p>
 
                         </div>
                     </section>
