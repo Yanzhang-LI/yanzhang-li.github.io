@@ -12,30 +12,12 @@
     
     
     <item>
-      <title>Cv</title>
+      <title>Yanzhang&#39;s CV</title>
       <link>//yanzhang-li.github.io/cv/</link>
       <pubDate>Sat, 24 Aug 2019 20:21:23 +0800</pubDate>
       
       <guid>//yanzhang-li.github.io/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//yanzhang-li.github.io/blogs/03kuakua/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//yanzhang-li.github.io/blogs/03kuakua/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//yanzhang-li.github.io/blogs/04linju/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//yanzhang-li.github.io/blogs/04linju/</guid>
-      <description></description>
+      <description>Download My CV (updated 20190904)</description>
     </item>
     
     <item>
@@ -44,7 +26,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//yanzhang-li.github.io/blogs/05tencent/</guid>
-      <description></description>
+      <description>Due to the confidentiality agreement, the work can only be displayed after it go alive.</description>
+    </item>
+    
+    <item>
+      <title>KuaKua Wechat Mini Program</title>
+      <link>//yanzhang-li.github.io/blogs/03kuakua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//yanzhang-li.github.io/blogs/03kuakua/</guid>
+      <description>A Wechat Mini Program which is a community where users can only comment people&amp;rsquo;s sharing with praise. Project from National Innovation and Entrepreneurship Training For College Students
+ Overview Brief Introduction Based on a culture phenomena (explained in 01 Background), me and 3 teammates tried to make it a product and make profits from it. We got involved in the culture phenomena, trying to control it and make it our promotion media in the future, which was quite successful.</description>
     </item>
     
     <item>
@@ -61,12 +53,22 @@ It is a course project of Design of Information Product, taught by Prof.</descri
     </item>
     
     <item>
+      <title>Neighbor-Reunion 邻聚</title>
+      <link>//yanzhang-li.github.io/blogs/04linju/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//yanzhang-li.github.io/blogs/04linju/</guid>
+      <description>An App and service design to improve micro-district community atmosphere and encourage neighbors to gather and have fun. If you are using MacOS, you can directly download the interactive prototype to explore.  Overview Brief Introduction 邻聚(Lin-ju),邻 stands for neighbors and 聚 stands for reunion, so name it Neighbor-Reunion in English. This design comes from the User Experience Design Award, where we did users and business research, brainstorm, interaction design, visual design, shooting and making videos to deliver our ideas.</description>
+    </item>
+    
+    <item>
       <title>Patent Novelty Website</title>
       <link>//yanzhang-li.github.io/blogs/02website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//yanzhang-li.github.io/blogs/02website/</guid>
-      <description>Patent Novelty Website  A website which could evaluate the potential value of a patent.  Overview Brief Introduction I completed this design project during my outbound exchange in Singapore University of Technology and Design (SUTD), guided by Prof.Luo Jianxi. Generally speaking, I redesigned the user-flow of the website as well as the visual part, and put the design into practice by building the website based on my front-end development skill.</description>
+      <description>A website which could evaluate the potential value of a patent.
+ Overview Brief Introduction I completed this design project during my outbound exchange in Singapore University of Technology and Design (SUTD), guided by Prof.Luo Jianxi. Generally speaking, I redesigned the user-flow of the website as well as the visual part, and put the design into practice by building the website based on my front-end development skill. Part of the website is not perfect and it works terribly on mobile end because my poor development skill.</description>
     </item>
     
   </channel>

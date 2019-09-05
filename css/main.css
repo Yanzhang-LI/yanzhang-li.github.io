@@ -2854,17 +2854,18 @@
 				width: 100%;
 			}
 
-			.tiles article:nth-child(6n - 4), .tiles article:nth-child(6n - 2){
+			.tiles article:nth-child(6n - 4){
 				width: 40%;
 			}
-
-
+			.tiles article:nth-child(6n - 2), .tiles article:nth-child(6n - 1){
+				width: 50%;
+			}
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #FCBBC3;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8ea9e8;
+				background-color: #a6e6dd;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
@@ -2872,11 +2873,11 @@
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #87c5a4;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #87c5a4;
+				background-color: #9ec8ff;
 			}
 
 			.tiles article:nth-child(6n):before {
